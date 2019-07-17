@@ -1,1 +1,1 @@
-# zadanie-15.6
+https://hartmanx1.github.io/zadanie-15.6/
