@@ -5,6 +5,7 @@
 
 body {
   text-align: center;
+  margin: 0;
 }
 
 button {
@@ -12,16 +13,17 @@ button {
   border: 2px solid grey;
 }
 
-button:hover {
-}
-
 h1 {
   font-size: 90px;
 }
 
 .column-container {
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .column {
@@ -36,23 +38,21 @@ h1 {
 .column-card-list {
   list-style-type: none;
   padding: 5px;
+  margin-bottom: 42px;
+  min-height: 25vh;
 }
 
 .card {
   background-color: pink;
   padding-bottom: 6px;
-  padding-top: 0px;
+  padding-top: 0;
 }
 
 .btn-delete {
   padding: 1px 14px 1px 14px;
 }
 
-.card > .btn-delete:hover {
-}
-
 .card-description {
   font-size: 30px;
 }
-
 /*# sourceMappingURL=style.css.map */
